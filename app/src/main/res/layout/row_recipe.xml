@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorBackground"
+            android:src="@drawable/ic_vector_no_img" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recipe"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image" />
+
+        <RelativeLayout
+            android:id="@+id/timeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_toRightOf="@id/image"
+            android:paddingVertical="3dp">
+
+            <ImageView
+                android:id="@+id/time"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/ic_vector_time"
+                android:tint="@color/colorGray"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:id="@+id/minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/time"/>
+
+            <TextView
+                android:id="@+id/unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="min"
+                android:layout_marginLeft="2dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/minutes" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewDifficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bardzo trudny"
+            android:layout_toRightOf="@id/image"
+            android:layout_below="@id/timeLayout"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/authorImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/profile_image"/>
+
+            <TextView
+                android:id="@+id/authorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:layout_toRightOf="@+id/authorImage"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <!--<ImageView
+            android:id="@+id/optionMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/ic_vector_more"
+            android:tint="@color/colorGray" />-->
+
+        <!--
+        <ImageButton
+            android:id="@+id/deleteItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_vector_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+        -->
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_diet"
+        android:icon="@drawable/ic_fruits"
+        android:title="eDieta" />
+    <item
+        android:id="@+id/nav_specialist"
+        android:icon="@drawable/ic_vector_profile"
+        android:title="Specjaliści" />
+    <item
+        android:id="@+id/nav_shopping_list"
+        android:icon="@drawable/ic_vector_basket"
+        android:title="Lista zakupów" />
+
+</menu>

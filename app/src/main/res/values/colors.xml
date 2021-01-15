@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stare kolory
+    <color name="colorPrimary">#f79862</color>
+    <color name="colorPrimaryDark">#be5504</color>
+    <color name="colorCalendar">#659C35</color>
+    <color name="colorCalendarDark">#659C35</color>
+    -->
+
+    <!-- Chce poeksperymentować z kolorystyką, bo layout wydaje mi się mdły -->
+    <color name="colorPrimary">#FFA500</color>
+    <color name="colorPrimaryDark">#FF7000</color>
+    <!--<color name="colorAccent">#EE6A23</color>-->
+    <color name="colorAccent">#FF7000</color>
+    <color name="colorSecondary">#FFA500</color>
+    <color name="colorSecondaryDark">#FF7000</color>
+    <color name="colorCalendar">#FFA500</color>
+    <color name="colorCalendarDark">#FF7000</color>
+    <color name="colorGray">#acacac</color>
+    <color name="colorGrayDark">#737373</color>
+    <color name="colorBackground">#f1f1f1</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+</resources>

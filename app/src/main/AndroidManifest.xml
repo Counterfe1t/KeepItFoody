@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kuba.keepitfoody">
+
+    <application
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AddIngredientsToRecipeActivity"
+            android:parentActivityName=".CreateRecipeActivity"/>
+        <activity
+            android:name=".BrowseSpecialistsActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".NutritionDetailsActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".ShoppingListActivity"
+            android:label="Lista zakupów"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".StartupActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MealDetailsActivity"
+            android:label="Szczegóły posiłku"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".RecipeDetailsActivity"
+            android:label="Przepis"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".CreateIngredientActivity"
+            android:label="Dodaj własny składnik"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".CreateMealActivity"
+            android:label="Kreator posiłku"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".CreateRecipeActivity"
+            android:label="Dodaj Przepis"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RegistrationSuccessActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

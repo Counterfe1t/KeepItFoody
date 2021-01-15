@@ -1,0 +1,89 @@
+<resources>
+    <array name="material_calendar_months_array">
+        <item>Styczeń</item>
+        <item>Luty</item>
+        <item>Marzec</item>
+        <item>Kwiecień</item>
+        <item>Maj</item>
+        <item>Czerwiec</item>
+        <item>Lipiec</item>
+        <item>Sierpień</item>
+        <item>Wrzesień</item>
+        <item>Październik</item>
+        <item>Listopad</item>
+        <item>Grudzień</item>
+    </array>
+    <string name="app_name">keep it foody</string>
+    <string name="login_key">Logowanie</string>
+    <string name="registration_key">Rejestracja</string>
+    <string name="login_text">Username</string>
+    <string name="password_text">Hasło</string>
+    <string name="password_text_2">Powtórz hasło</string>
+    <string name="email_text">Email</string>
+    <string name="register_button">Zarejestruj się</string>
+    <string name="zaloguj_text">Zaloguj się</string>
+    <string name="logo_text">Logo</string>
+    <string name="przepisy_text">Przepisy</string>
+    <string name="diety_text">Diety</string>
+    <string name="encyklopedia_produktow_text">Encyklopedia Produktów</string>
+    <string name="trenerzy_text">Trenerzy</string>
+    <string name="kalkulator_zaporzebowania_text">Kalkulator Zapotrzebowania</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile_photo">Profile Photo</string>
+
+    <!-- Karol /-->
+    <!-- Menu nawigacyjne /-->
+    <string name="regulations_text">Akceptuję regulamin.</string>
+    <string name="daily_meals">Dzisiejsze posiłki</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="ingredients">Składniki</string>
+    <string name="recipes">Przepisy</string>
+    <string name="user_profile">Profil użytkownika</string>
+    <string name="settings">Ustawienia</string>
+
+    <!-- Kategorie składników /-->
+    <string name="about">O Nas</string>
+    <string name="kategoria_warzywa">Warzywa</string>
+    <string name="kategoria_owoce">Owoce</string>
+    <string name="kategoria_mieso">Mięso</string>
+    <string name="kategoria_ryby">Ryby</string>
+    <string name="kategoria_nabial">Nabiał</string>
+    <string name="kategoria_bakalie">Bakalie</string>
+
+    <!-- Watości odżywcze /-->
+    <string name="kategoria_zbozowe">Zbożowe</string>
+    <string name="energia">Energia</string>
+    <string name="bialko">Białko</string>
+    <string name="tluszcz">Tłuszcz</string>
+    <string name="weglowodany">Węglowodany</string>
+    <string name="blonnik">Błonnik</string>
+
+    <!-- Polska lokalizacja kalendarza -->
+    <string name="sol">Sól</string>
+    <string name="material_calendar_monday">Pn</string>
+    <string name="material_calendar_tuesday">Wt</string>
+    <string name="material_calendar_wednesday">Śr</string>
+    <string name="material_calendar_thursday">Czw</string>
+    <string name="material_calendar_friday">Pt</string>
+    <string name="material_calendar_saturday">Sb</string>
+    <string name="material_calendar_sunday">Ndz</string>
+    <string name="material_calendar_today_button">Dzisiaj</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Anuluj</string>
+
+    <!-- facebook integrated login -->
+    <string name="facebook_app_id">383960062445006</string>
+    <string name="facebook_login_protocol_scheme">fb383960062445006</string>
+
+    <string name="name_text">Imię</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_e_dietetyk">eDietetyk</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

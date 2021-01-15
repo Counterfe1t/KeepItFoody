@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/planAction"
+        android:title="Zaplanuj posiłek"
+        myapp:showAsAction="never"/>
+    <item
+        android:id="@+id/detailsAction"
+        android:title="Szczegóły"
+        myapp:showAsAction="never"/>
+    <item
+        android:id="@+id/shoppingListAction"
+        android:title="Lista zakupów"
+        myapp:showAsAction="never"/>
+
+</menu>
